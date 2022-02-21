@@ -6,7 +6,7 @@ export default function Layout({ children }) {
         <h3>Obtain info about your preferred characters</h3>
       </section>
       <main>{children}</main>
-      <section className="bg-blue-500 text-white w-full p-2">
+      <section className="bg-blue-500 text-white w-full p-2 absolute bottom-0">
         Natan Dias@2022
       </section>
     </div>
